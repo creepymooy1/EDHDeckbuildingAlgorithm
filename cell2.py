@@ -1,6 +1,7 @@
 # Cell 2 - Split decks into main decks and sideboards
 import os
 
+# declare variables to be used in main function, including system path and file directory
 data_dir = r'C:\Users\Devin\Desktop\MTG Deckbuilding Algorithm\data'
 deck_files = os.listdir(data_dir)
 main_decks = []
