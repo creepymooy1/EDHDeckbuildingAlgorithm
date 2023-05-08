@@ -1,6 +1,8 @@
+# dependencies
 import requests
 import json
 
+# main function to fetch valid card names from the scryfall API
 def fetch_valid_card_names():
     valid_card_names = set()
     url = "https://api.scryfall.com/catalog/card-names?q=legal:commander"
